@@ -1,18 +1,19 @@
 import { BrowserRouter } from 'react-router-dom';
-import { Navbar, Hero, Skills } from './components';
+import { Navbar, Hero, Technologies, Footer } from './components';
 
 
 const App = () => {
 
   return (
-    <main className='flex-col'>
+    <main>
       <BrowserRouter>
         <div>
           <div>
             <Navbar/>
             <Hero/>
           </div>
-          <Skills/>
+          <Technologies/>
+          <Footer/>
         </div>
       </BrowserRouter>
     </main>

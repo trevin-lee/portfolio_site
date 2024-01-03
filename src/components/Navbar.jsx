@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className='flex h-[80px] fixed justify-center w-full top-0 bg-white shadow-md z-10'>
+    <header className='flex bg-white h-[80px] fixed justify-center w-full top-0  shadow-md z-10'>
       <nav className='flex justify-between w-full items-center'>
         <a href='/'>
           <h3 className='text-2xl px-10 font-poppins font-bold'>Trevin Lee</h3>

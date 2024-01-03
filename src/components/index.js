@@ -1,9 +1,11 @@
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-import Skills from "./Skills";
+import Technologies from "./Technologies";
+import Footer from "./Footer"
 
 export {
   Hero,
   Navbar,
-  Skills,
+  Technologies,
+  Footer
 };
