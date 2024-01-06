@@ -11,6 +11,7 @@ const Navbar = () => {
 
   return (
     <header className='flex bg-white h-[80px] fixed justify-center w-full top-0  shadow-md z-10'>
+
       <nav className='flex justify-between w-full items-center'>
         <a href='/'>
           <h3 className='text-2xl px-10 font-poppins font-bold'>Trevin Lee</h3>
@@ -30,6 +31,25 @@ const Navbar = () => {
           ))}
         </ul>
       </nav>
+
+    {/* <div className='fixed h-screen w-screen bg-white z-9999'>
+      <div className='h-[80px] justify-center '> 
+            <AiOutlineClose className=''/>
+      </div>
+      
+      <div className='flex flex-col justify-center items-center h-screen'>
+          {navLinks.map((item) => (
+            <ul key={item.label}
+                className='hover:scale-[1.05] p-10'>
+              <a href={item.href}
+                 className='leading-normal font-poppins font-semibold text-3xl align-middle'>
+                {item.label}
+              </a>
+            </ul>
+          ))}
+      </div>
+    </div> */}
+
     </header>
   )
 };

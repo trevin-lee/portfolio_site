@@ -1,5 +1,10 @@
 import { BrowserRouter } from 'react-router-dom';
-import { Navbar, Hero, Technologies, Footer } from './components';
+import { Navbar, 
+         Hero, 
+         Technologies, 
+         Projects, 
+         Footer, 
+         Aboutme } from './components';
 
 
 const App = () => {
@@ -12,7 +17,9 @@ const App = () => {
             <Navbar/>
             <Hero/>
           </div>
+          <Aboutme/>
           <Technologies/>
+          <Projects/>
           <Footer/>
         </div>
       </BrowserRouter>

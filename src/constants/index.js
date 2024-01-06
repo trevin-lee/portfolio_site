@@ -43,23 +43,7 @@ export const navLinks = [
 ];
 
 const skills = [
-  {
-      category: "Engineering & Analysis",
-      skillsList: [
           { imgURL: solidworks, name: "Solidworks" },
-          { imgURL: fusion360, name: "Fusion360" },
-          { imgURL: cura, name: "Cura" },
-          { imgURL: optimumlap, name: "Optimum Lap" },
-          { imgURL: arduino, name: "Arduino" },
-          { imgURL: mathematica, name: "Mathematica" },
-          { imgURL: matlab, name: "MATLAB" },
-          { imgURL: matplotlib, name: "Matplotlib" },
-          { imgURL: numpy, name: "Numpy" }
-      ]
-  },
-  {
-      category: "Software Development",
-      skillsList: [
           { imgURL: cplusplus, name: "C++" },
           { imgURL: python, name: "Python" },
           { imgURL: javascript, name: "JavaScript" },
@@ -73,10 +57,11 @@ const skills = [
           { imgURL: linux, name: "linux" },
           { imgURL: proxmox, name: "Proxmox" },
           { imgURL: truenas, name: "Truenas" },
-          { imgURL: vscode, name: "VSCode" }
-      ]
-  }
-];
+          { imgURL: vscode, name: "VSCode" },
+          { imgURL: fusion360, name: "Fusion360" },
+          { imgURL: mathematica, name: "Mathematica" },
+          { imgURL: matlab, name: "MATLAB" },
+      ];
 
 export { skills,
          heroTypeAnimation 
