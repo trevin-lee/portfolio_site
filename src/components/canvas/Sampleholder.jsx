@@ -9,8 +9,8 @@ const Sampleholder = () => {
 
   return (
     <primitive object={sampleHolder.scene} 
-               scale={0.03} 
-               position-y={-1.5} 
+               scale={0.022} 
+               position-y={-1} 
                rotation-x={3.10*3/2}
                rotation-z={0} />
   );
@@ -42,7 +42,7 @@ const SampleHolderCanvas = () => {
         <directionalLight
           castShadow
           position={[0, 0, -10]}
-          intensity={0.5}
+          intensity={0.7}
           shadow-mapSize-width={1024}
           shadow-mapSize-height={1024}
         />

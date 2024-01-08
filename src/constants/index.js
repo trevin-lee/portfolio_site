@@ -42,6 +42,8 @@ export const navLinks = [
   { href: "#contact", label: "Contact" }
 ];
 
+const aboutMe = `Hello I'm Trevin. I am currently a second year physics major at UCR.
+`
 const skills = [
           { imgURL: solidworks, name: "Solidworks" },
           { imgURL: cplusplus, name: "C++" },
@@ -64,5 +66,6 @@ const skills = [
       ];
 
 export { skills,
-         heroTypeAnimation 
+         heroTypeAnimation,
+         aboutMe
        };

@@ -4,10 +4,7 @@ import { navLinks } from '../constants';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-
-  const handleNav = () => {
-    setNav(!nav);
-  };
+  const handleNav = () => setNav(!nav);;
 
   return (
     <header className='flex bg-white h-[80px] fixed justify-center w-full top-0  shadow-md z-10'>
@@ -16,7 +13,8 @@ const Navbar = () => {
         <a href='/'>
           <h3 className='text-2xl px-10 font-poppins font-bold'>Trevin Lee</h3>
         </a>
-        <button className='mr-5 text-xl lg:hidden'>
+        <button className='mr-5 text-xl lg:hidden'
+                onClick={handleNav}>
           <AiOutlineMenu/>
         </button>
         <ul className='flex gap-10 px-10 max-lg:hidden'>
@@ -32,23 +30,30 @@ const Navbar = () => {
         </ul>
       </nav>
 
-    {/* <div className='fixed h-screen w-screen bg-white z-9999'>
-      <div className='h-[80px] justify-center '> 
-            <AiOutlineClose className=''/>
+    <div className={
+      !nav
+        ? 'hidden'
+        :'fixed h-screen w-screen bg-white z-9999 lg:hidden'
+    }>
+      <div className='flex h-[80px] justify-end items-center'> 
+        <button className='mr-5 text-xl'
+                onClick={handleNav}>
+            <AiOutlineClose/>
+        </button>
       </div>
-      
-      <div className='flex flex-col justify-center items-center h-screen'>
+      <div className='flex flex-col justify-center items-center h-screen mt-[-80px]'>
           {navLinks.map((item) => (
             <ul key={item.label}
                 className='hover:scale-[1.05] p-10'>
               <a href={item.href}
+                 onClick={handleNav}
                  className='leading-normal font-poppins font-semibold text-3xl align-middle'>
                 {item.label}
               </a>
             </ul>
           ))}
       </div>
-    </div> */}
+    </div>
 
     </header>
   )
