@@ -12,7 +12,7 @@ const SectionWrapper = (Component, tailwindClasses, idName) =>
           viewport={{ once: true, amount: 0.25 }}
           className='flex w-[80%] max-w-screen-xl mx-auto z-0'
         >
-          <span className='hash-span' id={idName}></span>
+          <span className='hash-span' id={idName}>&nbsp;</span>
           <Component />
         </motion.section>
       </div>

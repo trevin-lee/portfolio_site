@@ -35,14 +35,28 @@ const SampleHolderCanvas = () => {
         <directionalLight
           castShadow
           position={[0, 0, 10]}
-          intensity={1}
+          intensity={0.7}
           shadow-mapSize-width={1024}
           shadow-mapSize-height={1024}
         />
         <directionalLight
           castShadow
           position={[0, 0, -10]}
-          intensity={0.7}
+          intensity={0.3}
+          shadow-mapSize-width={1024}
+          shadow-mapSize-height={1024}
+        />
+        <directionalLight
+          castShadow
+          position={[-10, 0, 0]}
+          intensity={0.3}
+          shadow-mapSize-width={1024}
+          shadow-mapSize-height={1024}
+        />
+        <directionalLight
+          castShadow
+          position={[10, 0, 0]}
+          intensity={0.3}
           shadow-mapSize-width={1024}
           shadow-mapSize-height={1024}
         />

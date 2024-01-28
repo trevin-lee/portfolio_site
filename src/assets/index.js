@@ -24,6 +24,29 @@ import truenas from "./tech/truenas.png";
 import vscode from "./tech/vscode.png";
 import xd from "./tech/xd.svg";
 
+import artinstallation from "./projects/artinstallation.jpg";
+import augmentedrealitysandbox from "./projects/augmentedrealitysandbox.jpg";
+import automatedhydroponics from "./projects/automatedhydroponics.jpg";
+import datafinancewebsite from "./projects/datafinancewebsite.jpg";
+import drifttricycle from "./projects/drifttricycle.jpg";
+import drivetrain from "./projects/drivetrain.jpg";
+import gokart from "./projects/gokart.jpg";
+import gokartchassis from "./projects/gokartchassis.jpg";
+import industrialgarden from "./projects/industrialgarden.jpg";
+import lampmodel from "./projects/lampmodel.jpg";
+import nikewebsite from "./projects/nikewebsite.jpg";
+import parallaxscrollingwebsite from "./projects/parallaxscrollingwebsite.jpg";
+import retrotoasterspeaker from "./projects/retrotoasterspeaker.jpg";
+import sampleholder from "./projects/sampleholder.jpg";
+import solarwindowblinds from "./projects/solarwindowblinds.jpg";
+import solenoidengine from "./projects/solenoidengine.jpg";
+import steeringwheel from "./projects/steeringwheel.jpg";
+import threeddiagram from "./projects/threeddiagram.jpg";
+import threedportfolio from "./projects/threedportfolio.jpg";
+import v6engine from "./projects/v6engine.jpg";
+import wallgarden from "./projects/wallgarden.jpg";
+
+
 export {
     arduino,
     cplusplus,
@@ -49,5 +72,27 @@ export {
     threejs,
     truenas,
     vscode,
-    xd
+    xd,
+
+    artinstallation,
+    augmentedrealitysandbox,
+    automatedhydroponics,
+    datafinancewebsite,
+    drifttricycle,
+    drivetrain,
+    gokart,
+    gokartchassis,
+    industrialgarden,
+    lampmodel,
+    nikewebsite,
+    parallaxscrollingwebsite,
+    retrotoasterspeaker,
+    sampleholder,
+    solarwindowblinds,
+    solenoidengine,
+    steeringwheel,
+    threeddiagram,
+    threedportfolio,
+    v6engine,
+    wallgarden,
 };

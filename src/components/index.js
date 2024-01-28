@@ -1,15 +1,9 @@
-import Hero from "./Hero";
+import CopyButton from "./CopyButton";
 import Navbar from "./Navbar";
-import Aboutme from "./Aboutme";
-import Technologies from "./Technologies";
-import Projects from "./Projects";
-import Footer from "./Footer"
+import Loader from "./Loader";
 
 export {
-  Hero,
-  Navbar,
-  Aboutme,
-  Technologies,
-  Projects,
-  Footer
+    CopyButton,
+    Navbar,
+    Loader,
 };

@@ -1,10 +1,11 @@
 import { BrowserRouter } from 'react-router-dom';
-import { Navbar, 
-         Hero, 
+import { Hero, 
          Technologies, 
          Projects, 
+         Contact,
          Footer, 
-         Aboutme } from './components';
+         Aboutme } from './sections';
+import { Navbar } from './components';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Aboutme/>
           <Technologies/>
           <Projects/>
+          <Contact/>
           <Footer/>
         </div>
       </BrowserRouter>
