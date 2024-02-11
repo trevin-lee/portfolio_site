@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import { navLinks } from '../constants';
 
-const Navbar = () => {
+const Navbar = ({navLinks}) => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);;
 
@@ -14,7 +13,8 @@ const Navbar = () => {
           <h3 className='text-2xl px-10 font-poppins font-bold'>Trevin Lee.</h3>
         </a>
         <button className='mr-5 text-xl lg:hidden'
-                onClick={handleNav}>
+                onClick={handleNav}
+                aria-label="Toggle navigation">
           <AiOutlineMenu/>
         </button>
         <ul className='flex gap-10 px-10 max-lg:hidden'>

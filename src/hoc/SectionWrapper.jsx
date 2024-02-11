@@ -10,7 +10,7 @@ const SectionWrapper = (Component, tailwindClasses, idName) =>
           initial='hidden'
           whileInView='show'
           viewport={{ once: true, amount: 0.25 }}
-          className='flex w-[80%] max-w-screen-xl mx-auto z-0'
+          className='flex w-[90%] lg:w-[80%] max-w-screen-xl mx-auto z-0'
         >
           <span className='hash-span' id={idName}>&nbsp;</span>
           <Component />

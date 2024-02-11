@@ -1,16 +1,19 @@
-import Hero from "./Hero";
-import Aboutme from "./Aboutme";
-import Technologies from "./Technologies";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Footer from "./Footer"
+import Hero from "./main/Hero";
+import AboutMe from "./main/AboutMe";
+import Technologies from "./main/Technologies";
+import ProjectHighlights from "./main/ProjectHighlights";
+import Contact from "./main/Contact";
+import Footer from "./main/Footer"
+
+import ProjectPortfolio from "./portfolio/ProjectPortfolio";
 
 
 export {
   Hero,
-  Aboutme,
+  AboutMe,
   Technologies,
-  Projects,
+  ProjectHighlights,
   Contact,
   Footer,
+  ProjectPortfolio
 };

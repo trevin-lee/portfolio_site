@@ -1,4 +1,4 @@
-import { SectionWrapper } from '../hoc'
+import { SectionWrapper } from '../../hoc'
 
 const Footer = () => {
   return (

@@ -1,29 +1,37 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Hero, 
          Technologies, 
-         Projects, 
+         ProjectHighlights, 
          Contact,
          Footer, 
-         Aboutme } from './sections';
-import { Navbar } from './components';
+         AboutMe,
+         ProjectPortfolio } from './sections';
+
 
 
 const App = () => {
-
   return (
     <main>
       <BrowserRouter>
-        <div>
-          <div>
-            <Navbar/>
-            <Hero/>
-          </div>
-          <Aboutme/>
-          <Technologies/>
-          <Projects/>
-          <Contact/>
-          <Footer/>
-        </div>
+        <Routes>
+          <Route path="/" element = {
+            <>
+              <Hero/>
+              <AboutMe/>
+              <Technologies/>
+              <ProjectHighlights/>
+              <Contact/>
+              <Footer/>
+            </>
+          }/>
+
+          <Route path="/projects" element = {
+            <>
+               <ProjectPortfolio/>
+            </>
+          }/>
+
+        </Routes>
       </BrowserRouter>
     </main>
   )
