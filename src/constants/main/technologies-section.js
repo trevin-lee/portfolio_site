@@ -25,7 +25,7 @@ import {
     truenas,
     vscode,
     xd,
-} from "../assets";
+} from "../../assets";
 
 const skillIcons = [
     { imgURL: solidworks, name: "Solidworks" },

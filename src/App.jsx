@@ -5,8 +5,14 @@ import { Hero,
          Contact,
          Footer, 
          AboutMe,
-         ProjectPortfolio } from './sections';
-
+         
+        EngineeringProjects,
+        SoftwareProjects,
+        DesignProjects,
+        PortfolioHero} from './sections';
+import { Navbar } from './components';
+import { portfolioNavLinks } from './constants/portfolio/project-portfolio-page';
+import { mainNavLinks } from './constants/main/hero-section';
 
 
 const App = () => {
@@ -16,6 +22,7 @@ const App = () => {
         <Routes>
           <Route path="/" element = {
             <>
+              <Navbar navLinks={mainNavLinks}/>
               <Hero/>
               <AboutMe/>
               <Technologies/>
@@ -27,7 +34,11 @@ const App = () => {
 
           <Route path="/projects" element = {
             <>
-               <ProjectPortfolio/>
+               <Navbar navLinks={portfolioNavLinks}/>
+               <PortfolioHero/>
+               <EngineeringProjects/>
+               <SoftwareProjects/>
+               <DesignProjects/>
             </>
           }/>
 

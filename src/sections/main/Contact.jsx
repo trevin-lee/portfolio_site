@@ -1,5 +1,5 @@
 import { SectionWrapper } from "../../hoc" 
-import { email } from "../../constants/contact-section";
+import { email } from "../../constants/main/contact-section";
 import { CopyButton } from "../../components";
 import { RiLinkedinBoxLine, RiGithubLine } from "react-icons/ri";
 

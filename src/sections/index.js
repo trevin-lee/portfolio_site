@@ -5,7 +5,11 @@ import ProjectHighlights from "./main/ProjectHighlights";
 import Contact from "./main/Contact";
 import Footer from "./main/Footer"
 
-import ProjectPortfolio from "./portfolio/ProjectPortfolio";
+
+import PortfolioHero from "./portfolio/PortfolioHero";
+import EngineeringProjects from "./portfolio/EngineeringProjects";
+import SoftwareProjects from "./portfolio/SoftwareProjects";
+import DesignProjects from "./portfolio/DesignProjects";
 
 
 export {
@@ -15,5 +19,9 @@ export {
   ProjectHighlights,
   Contact,
   Footer,
-  ProjectPortfolio
+  
+  PortfolioHero,
+  SoftwareProjects,
+  EngineeringProjects,
+  DesignProjects
 };

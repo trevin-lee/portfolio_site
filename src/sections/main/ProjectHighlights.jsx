@@ -1,5 +1,5 @@
 import { SectionWrapper } from "../../hoc" 
-import { highlights } from "../../constants/project-highlights-section"
+import { highlights } from "../../constants/main/project-highlights-section"
 import { fadeIn } from "../../utils/motion";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
@@ -7,7 +7,7 @@ import Tilt from "react-parallax-tilt";
 import { IoIosArrowForward } from "react-icons/io";
 
 
-const ProjectCard = ({index, title, imgURL, description}) => (
+const ProjectCard = ({index, title, images, description}) => (
   <Tilt>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 1)}
@@ -18,9 +18,8 @@ const ProjectCard = ({index, title, imgURL, description}) => (
       <div className="flex flex-col justify-between gap-10">
         <p className="font-light text-xl">{description}</p>
         <div className="mx-auto">
-          <img src={imgURL}
-                className='mx-auto rounded-3xl'
-          />
+          <img src={images[0]}
+               className="rounded-xl"/>
         </div>
       </div>
 
@@ -39,7 +38,7 @@ const Projects = () => {
           <ProjectCard  key={index}
                         index = {index}
                         title = {project.title}
-                        imgURL = {project.imgURL}
+                        images = {project.images}
                         description = {project.description}
           />
         ))}

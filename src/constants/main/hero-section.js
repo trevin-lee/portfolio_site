@@ -9,7 +9,7 @@ const heroTypeAnimationList = [
     2000
 ];
 
-const navLinks = [
+const mainNavLinks = [
     { href: "#about", label: "About" },
     { href: "#technologies", label: "Technologies" },
     { href: "#projects", label: "Projects" },
@@ -17,4 +17,4 @@ const navLinks = [
 ];
 
 
-export { heroTypeAnimationList, navLinks };
+export { heroTypeAnimationList, mainNavLinks };

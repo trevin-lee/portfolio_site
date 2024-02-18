@@ -42,6 +42,8 @@ import drivetrain from "./projects/drivetrain.jpg";
 import drivetrain1 from "./projects/drivetrain1.jpg";
 import drivetrain2 from "./projects/drivetrain2.jpg";
 import drivetrain3 from "./projects/drivetrain3.jpg";
+import drivetrain4 from "./projects/drivetrain4.jpg";
+import dellr730 from "./projects/dellr730.jpg";
 import gardenrender from "./projects/gardenrender.jpg";
 import gardenrender1 from "./projects/gardenrender1.jpg";
 import gokart from "./projects/gokart.jpg";
@@ -118,6 +120,8 @@ export {
     drivetrain1,
     drivetrain2,
     drivetrain3,
+    drivetrain4,
+    dellr730,
     gardenrender,
     gardenrender1,
     gokart,

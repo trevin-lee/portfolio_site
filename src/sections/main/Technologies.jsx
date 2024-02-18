@@ -4,7 +4,7 @@ import Tilt from 'react-parallax-tilt';
 
 import { SectionWrapper } from '../../hoc'
 import { fadeIn } from "../../utils/motion";
-import { skillIcons, skills } from '../../constants/technologies-section';
+import { skillIcons, skills } from '../../constants/main/technologies-section';
 import { FaCheck } from "react-icons/fa";
 
 
