@@ -44,7 +44,7 @@ const Projects = () => {
         ))}
       </div>
       
-      <a href="projects"
+      <a href="/#/projects"
          className="mx-auto">
         <div className="flex flex-row items-center border-2 border-black rounded-xl p-2 my-10">
           <p className="text-xl text-black font-extralight">View More</p> 

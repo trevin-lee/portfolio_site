@@ -21,7 +21,7 @@ const Hero = () => {
           </div>
           <div className='justify-center lg:justify-start mt-[50px] md:mt-[60px] 2xl:mt-[70px]'>
             <IconBar buttonText="Projects"
-                    url="/projects"/>
+                    url="/#/projects"/>
           </div>
         </div>
 
