@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Hero, 
          Technologies, 
          ProjectHighlights, 
@@ -18,7 +18,7 @@ import { mainNavLinks } from './constants/main/hero-section';
 const App = () => {
   return (
     <main>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element = {
             <>
@@ -43,7 +43,7 @@ const App = () => {
           }/>
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </main>
   )
 }
