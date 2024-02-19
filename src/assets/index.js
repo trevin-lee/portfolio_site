@@ -67,7 +67,6 @@ import solarwindowblinds1 from "./projects/solarwindowblinds1.jpg";
 import solenoidengine from "./projects/solenoidengine.jpg";
 import steeringwheel from "./projects/steeringwheel.jpg";
 import steeringwheel1 from "./projects/steeringwheel1.jpg";
-import threeddiagram from "./projects/threeddiagram.jpg";
 import v6engine from "./projects/v6engine.jpg";
 
 import datafinancewebsite from "./projects/datafinancewebsite.jpg";
@@ -145,7 +144,6 @@ export {
     solenoidengine,
     steeringwheel,
     steeringwheel1,
-    threeddiagram,
     v6engine,
 
     datafinancewebsite,

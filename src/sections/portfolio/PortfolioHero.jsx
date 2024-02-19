@@ -1,5 +1,3 @@
-import { RiLinkedinBoxLine, RiGithubLine } from "react-icons/ri";
-import { HiOutlineDocumentText } from "react-icons/hi";
 import { IconBar } from "../../components";
 
 const PortfolioHero = () => {
@@ -11,10 +9,9 @@ const PortfolioHero = () => {
           <h1 className="flex font-bold justify-center text-7xl lg:text-8xl py-2">
             My Project Portfolio
           </h1>
-
           <IconBar buttonText="Main Site"
-                   url="/"/>
-
+                   url="/#/"
+          />
         </div>
       </div>
     </section>

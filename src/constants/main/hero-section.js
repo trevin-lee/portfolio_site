@@ -1,6 +1,4 @@
 const heroTypeAnimationList = [
-    "Mechanical Engineer",
-    2000,
     "Undergrad Researcher",
     2000,
     "Software Developer",

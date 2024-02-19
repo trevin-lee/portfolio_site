@@ -29,14 +29,14 @@ import {
 
 const skillIcons = [
     { imgURL: solidworks, name: "Solidworks" },
+    { imgURL: fusion360, name: "Fusion360" },
     { imgURL: matlab, name: "MATLAB" },
     { imgURL: cplusplus, name: "C++" },
     { imgURL: python, name: "Python" },
     { imgURL: fluxai, name: "Flux AI" },
     { imgURL: reactjs, name: "React JS" },
-    { imgURL: threejs, name: "Three JS" },
     { imgURL: tailwind, name: "Tailwind" },
-    { imgURL: docker, name: "Docker" },
+    { imgURL: vscode, name: "VSCode" },
     { imgURL: git, name: "Git" },
 ];
 
@@ -61,22 +61,17 @@ const skills = [
           "React.JS",
           "HTML/CSS",
           "Tailwind",
-          "Three.JS",
           "Git/Github",
-          "Docker"
       ]
   },
   { 
       type: "Lab Skills", 
       list: [
-          "Lock-In Amplifier",
           "Oscilloscope",
-          "Source-meter",
-          "Signal Generator",
-          "Electronics",
+          "Basic Circuit Design",
           "GPIB",
           "MatPlotLib",
-          "Numpy"
+          "Numpy",
       ]
   },
 ];
