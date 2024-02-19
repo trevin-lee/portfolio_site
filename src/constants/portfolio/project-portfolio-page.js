@@ -266,9 +266,9 @@ const softwareProjects = [
 
 
 const portfolioNavLinks = [
-    { href: "#engineering", label: "Engineering" },
-    { href: "#software", label: "Software" },
-    { href: "#design", label: "Design" },
+    { href: "engineering", label: "Engineering" },
+    { href: "software", label: "Software" },
+    { href: "design", label: "Design" },
 ];
 
 

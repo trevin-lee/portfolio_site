@@ -10,10 +10,10 @@ const heroTypeAnimationList = [
 ];
 
 const mainNavLinks = [
-    { href: "#about", label: "About" },
-    { href: "#technologies", label: "Technologies" },
-    { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" }
+    { href: "about", label: "About" },
+    { href: "technologies", label: "Technologies" },
+    { href: "projectHighlights", label: "Projects" },
+    { href: "contact", label: "Contact" }
 ];
 
 

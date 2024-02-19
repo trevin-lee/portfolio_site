@@ -15,18 +15,20 @@ const Technologies = () => {
       <div className='font-bold font-poppins text-5xl py-5 mx-auto lg:mx-0'>Technologies</div>
       <div className='flex flex-col lg:flex-row justify-between gap-5 rounded-2xl w-full'>
         {skills.map((category, index) => (
-          <motion.div key={index} 
-                      className='border-2 rounded-2xl p-5 lg:w-1/3'
-                      variants={fadeIn("right", "spring", index * 0.5, 1)}
-          >
-            <div className='text-3xl font-bold py-1'>{category.type}</div>
-            {category.list.map((skill, skillIndex) => (
-              <div key={skillIndex}
-                  className='flex items-center gap-1 font-light text-xl py-[1px]'>
-                {skill}  <FaCheck className='px-1'/>
-              </div>
-            ))}
-          </motion.div>
+          <Tilt className='lg:w-1/3 '>
+            <motion.div key={index} 
+                        variants={fadeIn("right", "spring", index * 0.5, 1)}
+                        className='border-2 rounded-2xl p-5 h-full'
+            >
+              <div className='text-3xl font-bold py-1'>{category.type}</div>
+              {category.list.map((skill, skillIndex) => (
+                <div key={skillIndex}
+                    className='flex items-center gap-1 font-light text-xl py-[1px]'>
+                  {skill}  <FaCheck className='px-1'/>
+                </div>
+              ))}
+            </motion.div>
+          </Tilt>
         ))}
 
       </div>
