@@ -3,7 +3,7 @@ import { FaCheck } from "react-icons/fa";
 import { useState } from "react";
 
 
-const CopyButton = (copyString) => {
+const CopyButton = ({copyString}) => {
 
     const[copyState, setCopyState] = useState(false)
     const handleCopy = async () => {
