@@ -222,11 +222,6 @@ const designProjects = [
 
 const softwareProjects = [
     {
-     title: "Keithley2400 GPIB Library", 
-     description: "A python library which defines methods to control sample resistance measurements on the Keithley2400 source-meter. Functions include: measurement initilization, measurement, source current setting, and more.",
-     link:"https://github.com/CRXKXWYI49/Keithley2400-Library",
-    },
-    {
      title: "Portfolio Website", 
      description: "A website to showcase my projects. Made with ReactJS, ThreeJS and Tailwind.",
      link:"https://github.com/CRXKXWYI49/Portfolio-Site",
@@ -246,11 +241,25 @@ const softwareProjects = [
     link:"https://github.com/CRXKXWYI49/FSAE-Gear-Ratio-Optimization",
     },
     {
+      title: "Keithley2400 GPIB Library", 
+      description: `A python library which defines methods to control sample resistance measurements on the 
+                    Keithley2400 source-meter. Functions include: measurement initilization, measurement, source 
+                    current setting, and more.`,
+      link:"https://github.com/CRXKXWYI49/Keithley2400-Library",
+    },
+    {
+      title: "Quasar Binary Classifier NN", 
+      description: `A neural network-based binary classifier that uses SDSS SkyServer data to distinguish quasars from other 
+                    celestial objects. Made using pandas, numpy, tensorflow, keras, and scikit on jupyter notebooks `,
+      link:"https://github.com/CRXKXWYI49/Quasar-Binary-Classifier-NN",
+    },
+    {
       title: "Crypto Trading Program", 
       description: `Programmed a crypto currency trading program using the Kraken API with a simple command line UI, which 
                     includes back-testing and live-testing functionalities. `,
       link:"https://github.com/CRXKXWYI49/Kraken-Crypto-Trading-Algorithm",
     },
+
   
 
 ];

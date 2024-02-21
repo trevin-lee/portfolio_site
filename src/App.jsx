@@ -25,8 +25,8 @@ const App = () => {
               <Navbar navLinks={mainNavLinks}/>
               <Hero/>
               <AboutMe/>
-              <Technologies/>
               <ProjectHighlights/>
+              <Technologies/>
               <Contact/>
               <Footer/>
             </>
