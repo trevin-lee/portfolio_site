@@ -2,7 +2,7 @@ import Carousel from "./Carousel"
 
 const ProjectPortfolioCard3 = ({project}) => {
     return(
-        <div className="flex flex-col justify-between gap-5 rounded-3xl  border-2 p-10">
+        <div className="flex flex-col justify-between gap-5 rounded-3xl  border-2 p-7 lg:p-10">
             <div className="flex flex-col lg:flex-row justify-between py-5">
                 <h2 className="text-3xl font-semibold font-poppins">{project.title}</h2>
                 <p className="text-xl font-extralight">{project.date}</p>

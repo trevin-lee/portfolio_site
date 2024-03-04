@@ -5,6 +5,7 @@ import ProjectPortfolioCard1 from "./ProjectPortfolioCard1";
 import ProjectPortfolioCard2 from "./ProjectPortfolioCard2";
 import ProjectPortfolioCard3 from "./ProjectPortfolioCard3";
 import IconBar from "./IconBar";
+import ScrollToTop from "./ScrollToTop";
 
 export {
     CopyButton,
@@ -14,4 +15,5 @@ export {
     ProjectPortfolioCard2,
     ProjectPortfolioCard3,
     IconBar,
+    ScrollToTop
 };

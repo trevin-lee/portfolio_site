@@ -31,10 +31,10 @@ const Carousel = ({images, numSlides=1, width=500, height=400, tailWindClasses =
         
         {numSlides > 1 && (
           <>
-            <ButtonBack className='absolute top-1/2 -left-7 transform -translate-y-1/2'>
+            <ButtonBack className='absolute top-1/2 -left-5 lg:-left-7 transform -translate-y-1/2'>
               <IoIosArrowBack />
             </ButtonBack>
-            <ButtonNext className='absolute top-1/2 -right-7 transform -translate-y-1/2'>
+            <ButtonNext className='absolute top-1/2 -right-5 lg:-right-7 transform -translate-y-1/2'>
               <IoIosArrowForward />
             </ButtonNext> 
           </>

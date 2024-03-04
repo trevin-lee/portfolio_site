@@ -12,20 +12,20 @@ const AboutMe = () => {
         <div className="font-bold font-poppins text-5xl py-5 mx-auto lg:mx-0">About Me</div>
         <div className="flex flex-col gap-5 lg:flex-row justify-between">
 
-          <div className="flex flex-col lg:w-1/2">
+          <div className="flex flex-col lg:w-2/3">
           <motion.div variants={zoomIn(0.2, 0.5)}
                       className="mx-auto lg:mx-0">
-            <div className="font-dark font-poppins text-4xl">
-              {aboutMe[0].school} 
+            <div className="font-bold text-3xl">
+              {aboutMe.school} 
             </div>
           </motion.div>
           <motion.div variants={textVariant(0.5)}>
-            <p className="font-thin text-3xl py-5"> {aboutMe[0].bio}</p>
+            <p className="text-xl font-light py-5"> {aboutMe.bio}</p>
           </motion.div>
         </div>
 
           <img src={ v6engine }
-                className="rounded-2xl lg:w-1/2"
+                className="rounded-2xl lg:w-1/3"
           />
         </div>
     </section>
