@@ -18,7 +18,7 @@ const IconBar = ({buttonText, url}) => {
                 className="hover:scale-105">
                 <HiOutlineDocumentText />
             </a>
-            <a className="border-[3px] lg:border-4 border-black font-light text-xl rounded-xl px-1 hover:scale-105"
+            <a className="border-4 border-black font-light text-xl rounded-xl px-1 hover:scale-105"
                 href={url}>
                 {buttonText}
             </a>
