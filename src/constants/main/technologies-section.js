@@ -47,8 +47,10 @@ const skills = [
           "Solidworks",
           "Fusion 360",
           "MATLAB",
-          "Flux AI",
-          "Digital Fabrication"
+          "ECAD",
+          "Digital Fabrication",
+          "Rapid Prototyping",
+          "Finite Element Analysis",
       ]
   },
   { 
@@ -56,22 +58,25 @@ const skills = [
       list: [
           "Python",
           "C++",
-          "Linux",
+          "Typescript",
+          "Tensorflow",
           "Proxmox",
-          "React.JS",
-          "HTML/CSS",
-          "Tailwind",
+          "Docker",
+          "Next.JS",
           "Git/Github",
       ]
   },
   { 
-      type: "Lab Skills", 
+      type: "Research", 
       list: [
-          "Oscilloscope",
-          "Basic Circuit Design",
+          "Scientific Computing",
+          "LaTeX",
+          "Numerical Methods",
+          "Machine Learning",
+          "Data Analysis",
+          "Data Visualization",
           "GPIB",
-          "MatPlotLib",
-          "Numpy",
+          "Electronics",
       ]
   },
 ];
