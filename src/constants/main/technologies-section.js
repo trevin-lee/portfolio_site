@@ -42,42 +42,39 @@ const skillIcons = [
 
 const skills = [
   { 
-      type: "Engineering", 
-      list: [
-          "Solidworks",
-          "Fusion 360",
-          "MATLAB",
-          "ECAD",
-          "Digital Fabrication",
-          "Rapid Prototyping",
-          "Finite Element Analysis",
-      ]
-  },
-  { 
       type: "Software Development", 
       list: [
           "Python",
           "C++",
           "Typescript",
-          "Tensorflow",
-          "Proxmox",
+          "Rust",
+          "PostgreSQL",
+          "Reddis",
           "Docker",
           "Next.JS",
           "Git/Github",
       ]
   },
   { 
-      type: "Research", 
+      type: "Physics Research", 
       list: [
-          "Scientific Computing",
+          "Python",
+          "Pytorch",
+          "Tensorflow",
+          "MATLAB",
+          "R",
           "LaTeX",
-          "Numerical Methods",
-          "Machine Learning",
-          "Data Analysis",
-          "Data Visualization",
           "GPIB",
-          "Electronics",
       ]
+  },
+  { 
+    type: "Engineering", 
+    list: [
+        "Solidworks",
+        "Fusion 360",
+        "MATLAB",
+        "ECAD",
+    ]
   },
 ];
 

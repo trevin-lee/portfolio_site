@@ -5,7 +5,6 @@ import Tilt from 'react-parallax-tilt';
 import { SectionWrapper } from '../../hoc'
 import { fadeIn } from "../../utils/motion";
 import { skillIcons, skills } from '../../constants/main/technologies-section';
-import { FaCheck } from "react-icons/fa";
 
 
 const Technologies = () => {
@@ -24,7 +23,7 @@ const Technologies = () => {
               {category.list.map((skill, skillIndex) => (
                 <div key={skillIndex}
                     className='flex items-center gap-1 font-light text-xl py-[1px]'>
-                  {skill}  <FaCheck className='px-1'/>
+                  {skill}
                 </div>
               ))}
             </motion.div>

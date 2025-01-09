@@ -3,7 +3,7 @@ const heroTypeAnimationList = [
     2000,
     "Software Developer",
     2000,
-    "Physics Major @ UCR",
+    "Physics Major @ UCSD",
     2000
 ];
 

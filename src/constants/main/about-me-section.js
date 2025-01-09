@@ -1,10 +1,11 @@
+
+
+
 const aboutMe = { 
-  bio: `I have a passion for working on
-        increasingly complex projects that push me to expand
-        my skillset. My interests include reading, physics research, 
-        software development, Formula 1, and film. Currently, I am exploring graph neural networks
-        in a high energy physics research lab.`,
-  school: "B.S. Physics @ UCR 📍",
+  bio: `I like to build projects and do research in my free time. 
+        My interests include machine learning, high energy physics, quantum computing, full stack web development, and mechanical engineering. 
+        Currently, my research projects are on particle event reconstruction with graph neural networks in a high energy physics lab at UCSD.`,
+  school: "B.S. Physics @ UCSD 📍",
   gpa: "GPA: 3.83"
 }
 

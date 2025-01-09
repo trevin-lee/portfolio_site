@@ -1,9 +1,7 @@
 import {
-
   engineeringProjects,
   softwareProjects,
   designProjects
-
 } from "../portfolio/project-portfolio-page"
 
 
