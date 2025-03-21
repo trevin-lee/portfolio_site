@@ -1,12 +1,10 @@
-const heroTypeAnimationList = [
-    "Physics Research",
-    2000,
+
+
+const heroTypeAnimationList: string[] = [
+    "Physics Research", 
     "Software Development",
-    2000,
     "Mechanical Engineering",
-    2000,
     "Physics Major @ UCSD",
-    2000
 ];
 
 const mainNavLinks = [

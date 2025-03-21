@@ -1,26 +1,30 @@
-import React, { Suspense } from "react";
+"use client"
+
+import React, { Suspense, FC } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from "./Loader";
+import { CanvasLoader } from "./canvas-loader";
 
-const Sampleholder = () => {
+export const Sampleholder: FC = () => {
   const sampleHolder = useGLTF("./sampleholder/result.gltf");
 
   return (
-    <primitive object={sampleHolder.scene} 
-               scale={0.022} 
-               position-y={-1} 
-               rotation-x={3.10*3/2}
-               rotation-z={0} />
+    <primitive
+      object={sampleHolder.scene}
+      scale={0.022}
+      position-y={-1}
+      rotation-x={3.10 * 3 / 2}
+      rotation-z={0}
+    />
   );
 };
 
-const SampleHolderCanvas = () => {
+export const SampleHolderCanvas: FC = () => {
   return (
     <Canvas
       shadows
-      frameloop='demand'
+      frameloop="demand"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
       camera={{
@@ -30,8 +34,8 @@ const SampleHolderCanvas = () => {
         position: [1, 1, 6],
       }}
     >
-      <Suspense fallback={<CanvasLoader/>}>
-        <ambientLight intensity={0.3} />
+      <Suspense fallback={<CanvasLoader />}>
+        <ambientLight intensity={0.4} />
         <directionalLight
           castShadow
           position={[0, 0, 10]}
@@ -66,11 +70,10 @@ const SampleHolderCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-         <Sampleholder/>
+        <Sampleholder />
         <Preload all />
       </Suspense>
     </Canvas>
   );
 };
 
-export default SampleHolderCanvas;
