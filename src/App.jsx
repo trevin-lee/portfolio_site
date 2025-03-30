@@ -15,7 +15,7 @@ import { Navbar } from './components';
 import { portfolioNavLinks } from './constants/portfolio/project-portfolio-page';
 import { mainNavLinks } from './constants/main/hero-section';
 import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => {
   return (
